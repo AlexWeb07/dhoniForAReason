@@ -43,7 +43,7 @@ function Dhoni() {
     <div className='w-full h-full absolute bg-zinc-900 top-0 left-0 flex flex-col gap-[5rem] justify-start pt-[5rem] items-center'>
     <h1 className='text-5xl font-semibold'>What's thala for a reason?</h1>
       <form onSubmit={handleSubmit} className='flex gap-10'>
-            <input type="text" placeholder='type something' value={thala} onChange={handleChange} className='w-[20rem] h-[3rem] outline-none rounded-lg bg-zinc-500 text-white px-5' />
+            <input type="text" placeholder='type something' value={thala} onChange={handleChange} className='font-bold w-[20rem] h-[3rem] outline-none rounded-lg bg-zinc-500 text-white px-5' />
             <input type="submit" value="Check it?" className='bg-white w-[8rem] h-[2.5rem] text-lg rounded-full'/>
         </form>
     <p className='text-blue-400 text-3xl font-bold' style={{display:"none"}} id="check"><span className='text-yellow-300'>{thala.toUpperCase()}</span> is thala for a reason 🥳🥳</p>
