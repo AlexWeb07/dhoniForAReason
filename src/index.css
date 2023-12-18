@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  font-size: 16px;
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -20,4 +23,22 @@ h1{
   background: linear-gradient(to right,yellow,orange);
   -webkit-background-clip: text;
   background-clip: text;
+}
+p{
+  text-align: center;
+}
+@media screen and (max-width:546px) {
+  html{
+    font-size: 12px;
+  }
+}
+@media screen and (max-width:425px) {
+  html{
+    font-size: 9px;
+  }
+}
+@media screen and (max-width:350px) {
+  html{
+    font-size: 8px;
+  }
 }
